@@ -23,3 +23,27 @@ echo "Hello World"
 file 0_xvz
 0_xvz: ASCII text
 ### the ouput for the file name "0_xvz" 
+
+echo date > date.sh
+cat date.sh
+nano date.sh
+#!/bin/bash
+
+date
+### here we created the file for date under date.sh
+
+cd desktop 
+cd projecto
+pwd
+/c/Users/Jered/desktop/projecto
+### here I created a folder name "projecto" to hold all the files needed for the tutorial 
+
+nano hello-world.sh
+#!/bin/bash
+
+echo "Hello World" 
+### created the file name "hello-world" 
+
+./hello-world.sh
+Hello World
+### demonstrating the hello-world.sh output 
