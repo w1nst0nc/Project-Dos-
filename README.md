@@ -50,7 +50,7 @@ Hello World
   
   
     GNU nano 4.9.3                                   backup.sh                                    Modified
-# This bash script is used to backup a user's home directory to /tmp/.
+# This bash script is used to backup a user's home directory to projecto. 
 
 function backup {
 
@@ -119,5 +119,3 @@ function backup {
 
 
 
-^G Get Help    ^O Write Out   ^W Where Is    ^K Cut Text    ^J Justify     ^C Cur Pos     M-U Undo
-^X Exit        ^R Read File   ^\ Replace     ^U Paste Text  ^T To Spell    ^_ Go To Line  M-E Redo
