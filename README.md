@@ -47,9 +47,50 @@ echo "Hello World"
 ./hello-world.sh
 Hello World
 ### demonstrating the hello-world.sh output 
+
+
+nano while.sh
+#!/bin/bash
+
+counter=0
+while [ $counter -lt 3 ]; do
+    let counter+=1
+    echo $counter
+done
+
+### file for while loop
+
+nano for.sh
+#!/bin/bash
+
+for i in 1 2 3; do
+    echo $i
+done
+
+### file for for loop
+
+
+nano comparison.sh 
+#!/bin/bash
+
+string_a="UNIX"
+string_b="GNU"
+
+echo "Are $string_a and $string_b strings equal?"
+[ $string_a = $string_b ]
+echo $?
+
+num_a=100
+num_b=100
+
+echo "Is $num_a equal to $num_b ?" 
+[ $num_a -eq $num_b ]
+echo $?
+### file for comparing
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
   
   
-    GNU nano 4.9.3                                   backup.sh                                    Modified
 # This bash script is used to backup a user's home directory to projecto. 
 
 function backup {
